@@ -1,0 +1,7 @@
+/.ipynb_checkpoints
+/.vscode
+/DROP TABLE IF EXISTS job_applied;.sql
+/INSERT INTO job_applied (.sql
+/postgres.session.sql
+/test.sql
+/Untitled.ipynb
