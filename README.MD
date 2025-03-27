@@ -51,7 +51,7 @@ Wide Salary Range: Top 10 paying data analyst roles span from $184,000 to $650,0
 Diverse Employers: Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
 Job Title Variety: There's a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
 
-![Top Paying Roles](Assets/1_top_paying_roles.png)
+![Top Paying Roles](Assets\1_top_paying_roles.png)
 *Bar graph visualizing the salary for the top 10 salaries for data analysts; ChatGPT generated this graph from my SQL query results*
 
 ### 2. Skills for Top Paying Jobs
@@ -91,7 +91,7 @@ Here's the breakdown of the most demanded skills for the top 10 highest paying d
 SQL is leading with a bold count of 8.
 Python follows closely with a bold count of 7.
 Tableau is also highly sought after, with a bold count of 6. Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand.
-![Top Paying Roles](Assets/2_top_paying_roles_skills.png)
+![Top Paying Roles](Assets\2_top_paying_roles_skills.png)
 *Bar graph visualizing the count of skills for the top 10 paying jobs for data analysts; ChatGPT generated this graph from my SQL query results*
 
 ### 3. In-Demand Skills for Data Analysts
@@ -170,7 +170,7 @@ Here's a breakdown of the results for top paying skills for Data Analysts:
 ### 5. Most Optimal Skills to Learn ###
 Combining insights from demand and salary data, this query aimed to pinpoint skills that are both in high demand and have high salaries, offering a strategic focus for skill development.
 
-```sql
+```
     SELECT 
         skills_dim.skill_id,
         skills_dim.skills,
@@ -231,9 +231,3 @@ Optimal Skills for Job Market Value: SQL leads in demand and offers for a high a
 
 ### Closing Thoughts
 This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
-
-
-
-
-
-kasra edited
