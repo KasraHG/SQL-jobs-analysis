@@ -174,7 +174,7 @@ Here's a breakdown of the results for top paying skills for Data Analysts:
 ### 5. Most Optimal Skills to Learn ###
 Combining insights from demand and salary data, this query aimed to pinpoint skills that are both in high demand and have high salaries, offering a strategic focus for skill development.
 
-```
+```sql
     SELECT 
         skills_dim.skill_id,
         skills_dim.skills,
