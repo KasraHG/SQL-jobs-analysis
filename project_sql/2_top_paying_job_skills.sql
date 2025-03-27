@@ -16,7 +16,7 @@ WITH top_paying_jobs AS (
 
     ORDER BY 
         salary_year_avg DESC
-    LIMIT 30
+    LIMIT 10
 )
 
 SELECT 
@@ -26,7 +26,7 @@ FROM top_paying_jobs
 INNER JOIN skills_job_dim ON  top_paying_jobs.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
-    salary_year_avg DESC 
+    salary_year_avg DESC;
 
 /* Here's a quick breakdown of the skill insights from those top-paying data analyst roles in 2023:
 
